@@ -1,7 +1,8 @@
 django-ember-tag
 ================
 
-Simple helper tag for using ember in django templates
+Simple helper tag for using ember in django templates (I hate {% verbatim %}).
+
 
 Install
 -------
@@ -25,6 +26,8 @@ In the template, load the ember helper tags and use:
     {% ember #<tagname> [arg1] [arg2] [argN] %} ... {% ember /<tagname> %}
   
     {% ember <variable> %}
+
+Any argument is rendered ipsis literis, including quotes, and variables are not evaluated.
 
 
 Example:
@@ -50,6 +53,7 @@ Example:
             <button type="submit" class="btn">{% trans "Login" %}</button>
         </form>
     {% ember /if %}
+
 
 Resulting HTML after rendering (with Brazilian Portuguese locale):
 

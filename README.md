@@ -6,7 +6,7 @@ Simple helper tag for using ember in django templates
 Why?
 ----
 
-I hate `{% verbatim %}`).
+I like the i18n from Django but I hate `{% verbatim %}`.
 
 
 Install

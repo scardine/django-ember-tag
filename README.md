@@ -1,7 +1,12 @@
 django-ember-tag
 ================
 
-Simple helper tag for using ember in django templates (I hate `{% verbatim %}`).
+Simple helper tag for using ember in django templates
+
+Why?
+----
+
+I hate `{% verbatim %}`).
 
 
 Install
@@ -62,7 +67,6 @@ Resulting HTML after rendering (with Brazilian Portuguese locale):
         <li>{{#linkTo "about"}}Sobre{{/linkTo}}</li>
         <li>{{#linkTo "blog"}}Notícias{{/linkTo}}</li>
         <li>{{#linkTo "help"}}Ajuda{{/linkTo}}</li>
-        </li>
     </ul>
     {{#if isAuthenticated}}
         <div class="pull-right">

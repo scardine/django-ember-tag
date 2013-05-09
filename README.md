@@ -22,9 +22,9 @@ Usage
          
 In the template, load the ember helper tags and use:
 
-  {% ember #<tagname> [arg1] [arg2] [argN] %} ... {% ember /<tagname> %}
+    {% ember #<tagname> [arg1] [arg2] [argN] %} ... {% ember /<tagname> %}
   
-  {% ember <variable> %}
+    {% ember <variable> %}
 
 
 Example:
